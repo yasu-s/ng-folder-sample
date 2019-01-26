@@ -3,6 +3,7 @@
   "tslint.alwaysShowRuleFailuresAsWarnings": true,
   "tslint.alwaysShowStatus": true,
   "tslint.configFile": "tslint.json",
+  "tslint.autoFixOnSave": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },

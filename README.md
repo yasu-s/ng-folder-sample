@@ -14,3 +14,4 @@
 * componentsはPresentational Componentを配置する。（基本的には@Input, @Outputのみでデータやりとり。Injectなし）
 * pagesは Container Components として扱う。
 
+* `yarn lint:fix` で `Prettier` を起動。
