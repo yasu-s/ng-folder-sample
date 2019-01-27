@@ -2,7 +2,6 @@
  * ルーティング定数クラス
  */
 export namespace RoutingConst {
-
   /**
    * メニュー機能
    */

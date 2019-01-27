@@ -1,25 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { CoreModule } from '@ng-sample/core';
-import { SharedModule } from '@ng-sample/shared';
 import { MenuModule } from '@ng-sample/menu';
+import { SharedModule } from '@ng-sample/shared';
 
-import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    CoreModule,
-    SharedModule,
-    AppRoutingModule,
-    MenuModule,
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, CoreModule, SharedModule, AppRoutingModule, MenuModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

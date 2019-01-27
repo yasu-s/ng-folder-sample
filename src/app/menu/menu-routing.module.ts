@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { RoutingConst } from '@ng-sample/core/constants';
 import { MenuComponent } from '@ng-sample/menu/pages';
@@ -7,8 +7,9 @@ import { MenuComponent } from '@ng-sample/menu/pages';
 /** Routing定義 */
 const routes: Routes = [
   {
-    path: RoutingConst.Menu.Top, component: MenuComponent
-  }
+    path: RoutingConst.Menu.Top,
+    component: MenuComponent,
+  },
 ];
 
 /**
@@ -16,6 +17,6 @@ const routes: Routes = [
  */
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class MenuRoutingModule { }
+export class MenuRoutingModule {}

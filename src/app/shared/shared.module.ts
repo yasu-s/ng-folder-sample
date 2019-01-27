@@ -7,15 +7,9 @@ import { FormsModule } from '@angular/forms';
  * @description 各種機能モジュールにimportして使用してください。
  */
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-  ],
+  imports: [CommonModule, FormsModule],
   declarations: [],
-  exports: [
-    CommonModule,
-    FormsModule,
-  ],
+  exports: [CommonModule, FormsModule],
   providers: [],
 })
-export class SharedModule { }
+export class SharedModule {}

@@ -11,14 +11,8 @@ import { MenuRoutingModule } from './menu-routing.module';
  * @description メニュー機能を提供する機能モジュールです。
  */
 @NgModule({
-  imports: [
-    SharedModule,
-    MenuRoutingModule,
-  ],
-  declarations: [
-    MENU_COMPONENTS,
-    MENU_PAGES,
-  ],
+  imports: [SharedModule, MenuRoutingModule],
+  declarations: [MENU_COMPONENTS, MENU_PAGES],
   providers: [],
 })
-export class MenuModule { }
+export class MenuModule {}
