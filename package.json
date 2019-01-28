@@ -14,7 +14,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint",
-      "pre-push": "yarn test:headless && yarn build --aot"
+      "pre-push": "yarn test:headless"
     }
   },
   "private": true,
