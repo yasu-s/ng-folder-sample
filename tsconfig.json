@@ -20,9 +20,6 @@
     ],
     "paths": {
       "@ng-sample/*": ["src/app/*"]
-    },
-    "plugins": [
-      {"name": "@angular/language-service"}
-    ]
+    }
   }
 }
