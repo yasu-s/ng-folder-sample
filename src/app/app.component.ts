@@ -1,9 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   template: `
-    <router-outlet></router-outlet>
+    <router-outlet #hoge="outlet" (activate)="onActive($event)"></router-outlet>
+    <div>{{ hoge.component.constructor.name }}</div>
   `,
 })
-export class AppComponent {}
+export class AppComponent {
+  @ViewChild(RouterOutlet) outlet: RouterOutlet;
+
+  onActive(event: any): void {
+    if (event) {
+    }
+  }
+}
