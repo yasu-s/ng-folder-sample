@@ -1,9 +1,7 @@
 {
   "git.ignoreLimitWarning": true,
   "tslint.alwaysShowRuleFailuresAsWarnings": true,
-  "tslint.alwaysShowStatus": true,
   "tslint.configFile": "tslint.json",
-  "tslint.autoFixOnSave": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
@@ -15,4 +13,7 @@
   "files.insertFinalNewline": true,
   "files.eol": "\n",
   "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  }
 }
