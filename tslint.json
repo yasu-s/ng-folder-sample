@@ -1,6 +1,5 @@
 {
   "rulesDirectory": [
-    "codelyzer",
     "tslint-plugin-prettier"
   ],
   "extends": [
@@ -8,6 +7,7 @@
     "tslint-config-prettier"
   ],
   "rules": {
+    "array-type": [true, "array"],
     "arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,
