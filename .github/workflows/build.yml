@@ -1,0 +1,20 @@
+name: Build
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: yarn install
+      run:  sudo apt-get update && sudo apt-get install yarn
+    - name: package install
+      run:  yarn
+    - name: build
+      run:  yarn build --prod
