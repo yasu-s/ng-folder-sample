@@ -7,11 +7,9 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-      image: node
+      image: yarnpkg/node-yarn
     steps:
     - uses: actions/checkout@v1
-    - name: yarn install
-      run:  npm install -g yarn
     - name: package install
       run:  yarn
     - name: lint
