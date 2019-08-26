@@ -6,11 +6,12 @@ jobs:
   check:
 
     runs-on: ubuntu-latest
-    
+    container:
+      image: node
     steps:
     - uses: actions/checkout@v1
     - name: yarn install
-      run:  sudo apt-get update && sudo apt-get install yarn
+      run:  npm install -g yarn
     - name: package install
       run:  yarn
     - name: lint
