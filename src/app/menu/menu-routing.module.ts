@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { RoutingConst } from '@ng-sample/core/constants';
 import { MenuComponent } from '@ng-sample/menu/pages';
 
 /** Routing定義 */
 const routes: Routes = [
   {
-    path: RoutingConst.Menu.Top,
+    path: 'menu',
     component: MenuComponent,
   },
 ];
