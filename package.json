@@ -11,7 +11,8 @@
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
     "e2e": "ng e2e",
-    "compodoc": "compodoc -p src/tsconfig.app.json -d ./docs -s"
+    "compodoc": "compodoc -p src/tsconfig.app.json -d ./docs -s",
+    "output:version": "./scripts/version.sh"
   },
   "husky": {
     "hooks": {
