@@ -6,7 +6,7 @@ import { MenuComponent } from '@ng-sample/menu/pages';
 /** Routing定義 */
 const routes: Routes = [
   {
-    path: 'menu',
+    path: '',
     component: MenuComponent,
   },
 ];

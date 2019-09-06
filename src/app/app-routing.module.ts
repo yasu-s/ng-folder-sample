@@ -8,6 +8,10 @@ const routes: Routes = [
     redirectTo: 'menu',
     pathMatch: 'full',
   },
+  {
+    path: 'menu',
+    loadChildren: () => import('./menu/menu.module').then((mod) => mod.MenuModule),
+  },
 ];
 
 @NgModule({
