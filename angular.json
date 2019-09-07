@@ -35,6 +35,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+              "tsConfig": "src/tsconfig.build.json",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
