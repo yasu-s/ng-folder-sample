@@ -1,2 +1,1 @@
-/* tslint:disable */
-export * from './core.module';
+/* tslint:disable:max-line-length */
