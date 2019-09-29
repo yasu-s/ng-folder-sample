@@ -89,6 +89,8 @@
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
     "directive-class-suffix": true,
+    "no-angle-bracket-type-assertion": true,
+    "no-parameter-reassignment": true,
     "prettier": [
       true, {
         "printWidth": 140,
