@@ -4,14 +4,14 @@
     "outDir": "../out-tsc/app",
     "types": []
   },
-  "exclude": [
-    "test.ts",
-    "**/*.spec.ts"
-  ],
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "preserveWhitespaces": true,
     "strictInjectionParameters": true,
     "trace": true,
-  }
+  },
+  "files": [
+    "main.ts",
+    "polyfills.ts"
+  ]
 }
