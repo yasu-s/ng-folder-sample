@@ -10,7 +10,7 @@ describe('AppComponent', () => {
       providers: [MenuComponent],
     });
 
-    component = TestBed.get(MenuComponent);
+    component = TestBed.inject(MenuComponent);
   });
 
   it('should create the app', () => {
